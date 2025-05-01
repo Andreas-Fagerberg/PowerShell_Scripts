@@ -104,5 +104,4 @@ function Require-Script {
 }
 ```
 
-### If you do not want all scripts included just make sure to inclue the ones referencing the correct scripts in your script folder. 
-### And some of the scripts will require the 'Require-Script' function and 'Invoke-ScriptWithErrorHandling' function in order to properly execute.
+If you do not want all scripts included just make sure to inclue the ones referencing the correct scripts in your script folder. And some of the scripts will require the 'Require-Script' function and 'Invoke-ScriptWithErrorHandling' function in order to properly execute.
