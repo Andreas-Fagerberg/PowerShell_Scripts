@@ -1,8 +1,10 @@
 param(
     [Parameter(Mandatory = $true, HelpMessage = "Specify the project type, either 'webapi' or 'consoleapp'.")]
 	[ValidateScript({
-		if ($_ -eq 'webapi' -or $_ -eq 'consoleapp') { return $true }
-		else { throw 'Invalid ProjectType. Valid values are "webapi" or "consoleapp".'}
+		if ($_ -eq 'webapi' -or $_ -eq 'consoleapp') 
+		{ return $true }
+		else 
+		{ throw 'Invalid ProjectType. Valid values are "webapi" or "consoleapp".'}
 	})]
 	[string]$ProjectType
 )
