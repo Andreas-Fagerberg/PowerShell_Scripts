@@ -1,21 +1,21 @@
 ## Making Scripts Easily Accessible
 
-### Check if you have a profile by running the following in PowerShell:
+#### Check if you have a profile by running the following in PowerShell:
 ```
 Test-Path $PROFILE
 ```
  
-### If it returns `False`, create one with:
+#### If it returns `False`, create one with:
 ```
 New-Item -Type File -Path $PROFILE -Force
 ```
 
-### Edit your PowerShell profile with:
+#### Edit your PowerShell profile with:
 ```
 notepad $PROFILE
 ```
 
-### To include all my scripts in the powershell profile just copy and paste the following code into the PowerShell profile document:
+#### To include all my scripts in the powershell profile just copy and paste the following code into the PowerShell profile document:
 ```
 $scriptFolder = "$env:USERPROFILE\Documents\PowerShellScripts"
 $env:Path += ";$scriptFolder"
