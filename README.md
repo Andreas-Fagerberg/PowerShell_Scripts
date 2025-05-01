@@ -58,5 +58,6 @@ function your-script-alias {
 ```
 . $PROFILE
 ```
-
+#### 4. For more specific info on how I set up my profile check out
+[profile-setup.md](profile-setup.md)
 
