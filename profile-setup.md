@@ -95,7 +95,7 @@ function Require-Script {
         [string]$ScriptPath
     )
 
-    if (-Not (Test-Path $ScriptPath)) {
+    if (-not (Test-Path $ScriptPath)) {
         throw "Required script not found: $ScriptPath"
     }
 
